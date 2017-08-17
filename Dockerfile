@@ -1,10 +1,10 @@
-FROM node:8-alpine
+FROM node:6.11.2-alpine
 
 LABEL authors="Atif Saddique <atif.saddique4@gmail.com>"
 
 RUN apk update \
   && apk add --update alpine-sdk \
-  && npm install -g @angular/cli@1.1.3 \
+  && npm install -g @angular/cli@1.2.4 \
   && ng set --global packageManager=yarn \
   && apk del alpine-sdk \
   && rm -rf /tmp/* /var/cache/apk/* *.tar.gz ~/.npm \
