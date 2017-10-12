@@ -4,7 +4,7 @@ LABEL authors="Atif Saddique <atif.saddique4@gmail.com>"
 
 RUN apk update \
   && apk add --update alpine-sdk \
-  && npm install -g @angular/cli@1.2.4 \
+  && npm install -g @angular/cli@1.4.3 \
   && ng set --global packageManager=yarn \
   && apk del alpine-sdk \
   && rm -rf /tmp/* /var/cache/apk/* *.tar.gz ~/.npm \
