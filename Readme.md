@@ -4,8 +4,8 @@
  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
 /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
                |___/
-@angular/cli: 7.1.4
-node: 10.15.0
+@angular/cli: 8.1.0
+node: 12.6.0
 os: linux x64
 package manager: yarn
 docker hub: https://hub.docker.com/r/atifsaddique/angular-cli/
